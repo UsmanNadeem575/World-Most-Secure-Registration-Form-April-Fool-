@@ -1,0 +1,138 @@
+/* Build by DevMasterMind */
+body {
+    font-family: 'Rock Salt', cursive;
+    font-size: 16px;
+    background-color: #f5ffe1;
+    color: #00008b;
+    padding: 50px;
+    padding-top: 0px;
+    cursor: url('https://cdn-icons-png.flaticon.com/512/32/32328.png'), crosshair;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff9c4;
+    border-bottom: 5px dotted #ff00ff;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ff0000;
+    text-shadow: 3px 3px #000;
+}
+
+.header button {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border: 3px double #0000ff;
+    cursor: pointer;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: 5px double red;
+    padding: 15px 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    cursor: crosshair;
+    font-family: 'Rock Salt', cursive;
+    margin: 10px 0;
+}
+
+fieldset {
+    border: 6px groove red;
+    background-color: #ffff99;
+    width: 60%;
+    margin: 20px auto;
+    margin-top: 0px;
+    box-shadow: 8px 8px 0px #ff00ff;
+    position: relative;
+}
+
+.nested-fieldset1 {
+    transform: rotate(-5deg);
+    border: 4px double green;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #ffe4e1;
+    position: relative;
+}
+
+.nested-fieldset2 {
+    transform: rotate(4deg);
+    border: 4px double green;
+    padding: 15px;
+    background-color: #ffe4e1;
+    position: relative;
+}
+
+legend {
+    font-size: 19px;
+    color: blue;
+    font-weight: bold;
+}
+
+input {
+    font-size: 14px;
+    font-family: 'Rock Salt', cursive;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    border: 3px dashed purple;
+    background-color: #f0fff0;
+    color: darkred;
+}
+
+.error_box {
+    display: none;
+    position: absolute;
+    top: -35%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%) scale(0.5) rotate(3deg);
+    width: 100%;
+    padding: 25px;
+    background-color: black;
+    border: 4px dotted #ff003d;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 0px #0000ff;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+    opacity: 0;
+}
+
+.error_box.show {
+    display: flex;
+    transform: translate(-50%, -50%) scale(1) rotate(3deg);
+    opacity: 1;
+}
+
+.error_box p {
+    color: white;
+}
+
+.error_box span {
+    color: red;
+}
+
+
+footer {
+    margin-top: 40px;
+    font-size: 22px;
+    color: magenta;
+    text-align: center;
+    text-decoration: underline wavy orange;
+}
