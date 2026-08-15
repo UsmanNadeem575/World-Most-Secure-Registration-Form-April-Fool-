@@ -1,3 +1,6 @@
-const userInput = location.search.substring(1);
+function showUserInput() {
+    const input = location.search;
+    document.write(input);
+}
 
-document.getElementById("output").innerHTML = userInput;
+showUserInput();
